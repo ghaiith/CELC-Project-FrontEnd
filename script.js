@@ -1,7 +1,8 @@
-ocument.getElementById("saved").classList.add('fas');
-
-document.getElementById("saved").classList.remove('far');
-
-if ( document.getElementById("saved").classList.contains('MyClass') )
-
-document.getElementById("MyElement").classList.toggle('MyClass');
+// function savedbtn(){
+//     if (document.getElementById("saved").className == "far fa-bookmark ms-3"){
+//         document.getElementById("saved").className = ('fas fa-bookmark ms-3');
+//     }
+//     else{
+//         document.getElementById("saved").className = ('far fa-bookmark ms-3');
+//     }
+// }

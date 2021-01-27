@@ -23,7 +23,7 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item me-2">
-                    <a class="nav-link" aria-current="page" href="#">الصفحة الرئيسية</a>
+                    <a class="nav-link" aria-current="page" href="index.html">الصفحة الرئيسية</a>
                   </li>
                   <li class="nav-item dropdown me-2">
                     <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -31,7 +31,7 @@
                       <i style="margin-top: 10x; font-size: 7px;" class="fa fa-chevron-down" aria-hidden="true"> </i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">دورات</a></li>
+                      <li><a class="dropdown-item" href="courses.html">دورات</a></li>
                       <li><a class="dropdown-item" href="#">امتحانات</a></li>
                       <li><a class="dropdown-item" href="#">مؤتمرات</a></li>
                       <li><a class="dropdown-item" href="#">نتائج</a></li>
@@ -67,14 +67,16 @@
       </header>
 
       <main>
-          <h2 style="text-align: center; font-weight: 900;">الدورات</h2>
-          <br>
         <!-- ##################################### Courses Sections #####################################-->
             <div class="container">
+              <div class="row mb-3">
+                <h2 style="text-align: center; font-weight: 900;">الدورات</h2>
+                <br>
+              </div>
                 <div class="row mb-3 g-3 justify-content-center align-items-center" >
                     <!--##################### post ######################-->
-                    <div class="col-sm-3 justify-content-center">
-                        <div class="card" style="width: 16rem;">
+                    <div class="col-sm-3 cardjustify">
+                        <div class="card boxshadow" style="width: 16rem;">
                             <img class="card-img-top img-c" src="img/pic2.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title"> اسم الكورس</h5>
@@ -96,7 +98,7 @@
                         -webkit-line-clamp: 4; /* number of lines to show */ -webkit-box-orient: vertical;">
                                     هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.
                                 </p>
-                                <a href="#" class="btn btn-primary btn-sm">عرض المزيد</a> <a href="#"><i class="far fa-bookmark ms-3" id="saved"></i></a>
+                                <a href="#" class="btn btn-primary btn-sm">عرض المزيد</a><i onclick="savedbtn();" class="far fa-bookmark ms-3" id="saved"></i>
                             </div>
                         </div>
                     </div>

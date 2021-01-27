@@ -90,9 +90,22 @@ main{
     margin: 8px;
 }
 .boxitem{
+    padding: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.boxitem a{
+    text-decoration: none;
+}
+.boxitem .boxmain:hover{
+    box-shadow: 0px 2px 20px rgba(0, 140, 255, 0.5);
+}
+.boxitem p{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(185, 185, 185);
 }
 /* ######################## End Main ##################### */
 
@@ -153,4 +166,16 @@ footer{
 .img-c{
     height: 254px;
     width: 254px;
+}
+#saved{
+    cursor: pointer;
+}
+.boxshadow{
+    box-shadow: 0px 2px 10px rgb(0,0,0,0.5);
+}
+.cardjustify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
