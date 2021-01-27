@@ -1,6 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/7712e50ecac759e968ac145c0c4a6d33?family=Droid+Arabic+Kufi);
-@font-face {font-family: "Droid Arabic Kufi"; src: url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.eot"); src: url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.woff") format("woff"), url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.svg#Droid Arabic Kufi") format("svg"); } 
-*{
+@font-face { font-family: 'Droid Arabic Kufi'; font-style: normal; font-weight: 400; src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot); src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'), url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format('truetype'); } @font-face { font-family: 'Droid Arabic Kufi'; font-style: normal; font-weight: 700; src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot); src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'), url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format('woff2'), url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format('woff'), url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format('truetype'); }*{
     margin: 0;
     padding: 0;
     font-family: "Droid Arabic Kufi", sans-serif;
@@ -36,7 +34,7 @@
 .headerbox .search-form {
     margin-top: 20px;
     display: flex;
-    width: 80%;
+    width: 85%;
     position: relative;
 }
 #searchBox{
