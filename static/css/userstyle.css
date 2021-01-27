@@ -18,10 +18,12 @@
     text-align: center;
 }
 .headerh3{
+    font-size: 45px;
     font-weight: bold;
 }
 .headerpar{
     margin: 10px 0 0 0;
+    font-size: 20px;
 }
 .headerbox{
     display: flex;
