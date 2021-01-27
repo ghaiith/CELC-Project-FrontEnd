@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/7712e50ecac759e968ac145c0c4a6d33?family=Droid+Arabic+Kufi);
+@font-face {font-family: "Droid Arabic Kufi"; src: url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.eot"); src: url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.woff") format("woff"), url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7712e50ecac759e968ac145c0c4a6d33.svg#Droid Arabic Kufi") format("svg"); } 
 *{
     margin: 0;
     padding: 0;
