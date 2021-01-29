@@ -278,3 +278,39 @@ footer{
     font-size: 1em;
     font-weight: 600;
 }
+.boxpost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post{
+    width:90%;
+    justify-self: center;
+}
+.postprev{
+    border-radius: 20px;
+    padding: 5px;
+}
+.postp1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.postp1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.postinfo{
+    margin: 20px 0 20px 0;
+    padding: 5px 20px 5px 20px;
+    background-color: rgba(0, 0, 255, 0.021);
+    border-radius: 20px;;
+}
+.desc{
+    padding: 10px;
+}
+.desc h4{
+    font-weight: 600;
+}
