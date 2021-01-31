@@ -314,3 +314,86 @@ footer{
 .desc h4{
     font-weight: 600;
 }
+.contactform{
+    width: 700px;
+}
+.contactbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ab-card{
+    height: 350px;
+}
+.aboutproj{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgb(0,0,0,0.5);
+    padding: 20px;
+}
+.aboutproj h2{
+    font-weight: 600;
+    text-align: center;
+}
+.aboutproj p{
+    font-weight: 300;
+    text-align: center;
+}
+.j-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgb(0,0,0,0.5);
+    transition: all 0.3s ease-in;
+    -webkit-transition:all 0.3s ease-in;
+    -moz-transition:all 0.3s ease-in;
+}
+.imgcard{
+    margin-top: -70px;
+    border: 1px solid black;
+    width: 200px;
+}
+.j-card h3{
+    font-weight: 600;
+}
+.j-card h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.589);
+}
+.j-card p{
+    color: rgba(0, 0, 0, 0.589);
+    text-align: center;
+}
+.soicalicons{
+    display: flex;
+    flex-direction: row;
+}
+.j-card i{
+    color: #555;
+    font-size: 20px;
+}
+.j-card:hover{
+    box-shadow: 0px 2px 20px rgb(0,0,0,0.5);
+}
+.j-card i:hover{
+    color:  #0075ff;
+    font-size: 20px;
+}
+.marcard{
+    margin: 0px 0 70px 0;
+}
+.partnerimg{
+    width: 200px;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in;
+    -webkit-transition:all 0.3s ease-in;
+    -moz-transition:all 0.3s ease-in;
+}
+.partnerimg:hover{
+    filter: none;
+}
